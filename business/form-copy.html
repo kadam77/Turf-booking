@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Membership Form</title>
+ <link rel="stylesheet"
+ href="form.css" type="text/css">
+ <script src="formvalidate.js"></script>
+</head>
+<body>
+
+<div class="Business">
+  
+    
+  <div class="register">Register div</div>
+
+
+  <h2>Register here for Business/Franchise form </h2>  
+  <form id="register" action="form.php" method="post" onsubmit="return validate()">
+      <label>First Name : </label>
+      <br>
+      <input type="text" name="fname" id="fname" placeholder="Enter your First Name">
+      <p id="err_fname" class="error"></p><!--  * -->
+      <br><br>
+      <label>Last Name :</label>
+      <br>
+      <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
+      <p id="err_lname" class="error"></p><!--  * -->
+      <br><br>
+      <label>Your Age : </label>
+      <br>
+      <input tpe="number" name="age"
+      id="age" placeholder="How old are you?">
+      <p id="err_age" class="error"></p><!--  * -->
+      <br><br>
+      <label>Contact Number :</label>
+      <br>
+      <input type="number" name="contactno"
+      id="mobno" placeholder="Enter your Contact Number">
+      <p id="err_mobno" class="error"></p><!--  * -->
+      <br><br>
+      <label>Email :</label>
+      <br>
+      <input type="email" name="email"
+      id="email" placeholder="Enter your valid Email">
+  
+      <p id="err_email" class="error"></p><!--  * -->
+      <br><br>
+      <label>Turf Location :</label>
+      <br>
+      <input type="text" name="location"
+      id="loc" placeholder="Enter your Turf Location">
+      <p id="err_loc" class="error"></p><!--  * -->
+      <br><br>
+      <br>
+      <label>Gender :</label>
+      <br>
+      &nbsp;&nbsp;&nbsp;
+      <input type="radio" name="gender"
+      id="male" value="Male">
+      &nbsp;
+      <span id="male">Male</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="gender"
+      id="female" value="Female">
+      &nbsp;
+      <span id="female">Female</span>
+      <br><br>
+      <!-- <label>ID No(if you want to update) :</label> -->
+      <br>
+      <!-- <input type="number" name="id"
+      id="name" placeholder="Enter your Id no if you want to update" >
+      <br><br> -->
+      <input type="submit" value="submit"   name="submit" id="submit">
+      <!-- <input type="submit" id="button1" value="Place Order">  -->
+      <!-- <button onclick="myfun()">Submit</button> -->
+      </form>
+      <!-- <script >
+        function myfun(){
+    alert("connection done");
+}
+      </script> -->
+</div>    
+</div>
+</body>
+</html>

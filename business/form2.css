@@ -1,0 +1,145 @@
+*{
+    background-color: rgb(165, 205, 153);
+    background-color: aliceblue;
+    background-color: rgba(198, 219, 239, 0.781);
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(244, 211, 149);
+    
+}
+
+.head1{
+    background-color: aliceblue;
+    background-color: black;
+    
+    background-color: rgb(59, 232, 6);
+    color: rgb(2, 18, 10);
+     text-align: center;
+    text-decoration: solid;
+    font-size: 2.6em;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    justify-content: center ;
+    padding-top: 10px;
+    text-decoration:underline;
+    background-color: rgba(121, 185, 245, 0.217);
+background-color: orange;
+}
+
+.head2{
+    background-color: aliceblue;
+    background-color: black;
+    color: rgb(4, 105, 23);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 2.6em;
+    /* margin-bottom: 20px; */
+    padding-bottom: 15px;
+    justify-content: center ;
+    padding-top: 10px;
+    background-color: aliceblue;
+    border-bottom: 3px solid gray;
+    background-color: rgba(121, 185, 245, 0.217);
+ z-index: 4px;
+ background-color: rgba(255, 166, 0, 0.845);
+}
+
+label{
+margin-left: 15%;
+padding-left: 30px;
+padding-right: 10px;
+}
+input{
+    padding-left:20px ;
+}
+
+.name,.dob,.bplace,.gen,.mob,.email,.add1,.add2,.pincode,.panno,.state,.couponcode
+{
+padding:6px ;
+padding-top: 30px;
+}
+
+.inpbox{
+    padding: 6px;
+    margin-left: 17%;
+    display: flex;
+}
+.gen1{
+    margin-left: 30px;
+}
+/* adding media Queries */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {    
+    .inpbox{
+        padding: 6px;
+        margin-left: 23%;
+        display: flex;
+    }
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .inpbox{
+        padding: 6px;
+        margin-left: 17.5%;
+        display: flex;
+        background:white;
+    }
+}
+    @media only screen and (max-width: 600px) {
+        .inpbox{
+            padding: 6px;
+            margin-left: 11%;
+            display: flex;
+        }
+        label
+        {
+            margin: 1%;
+        }
+    }
+    
+#button1{
+    text-align: center;
+    position: relative;
+    margin: 35px 2px;
+    left : 203px;
+    width: 150px;
+    padding:5px ;
+    align-items: center;
+    justify-self: center;
+    background-color: green;
+    color: azure;
+    font-size:1.2rem;
+    
+    
+}
+#err_name{
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+.error{
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.qty
+{
+    width: 55px;
+    padding: 6px;
+    position: relative;
+    left:205px;
+    background-color: white;
+    color:black
+}
+.order-name{
+    width: 100px;
+    padding: 6px;
+    color: black;
+    background:white;
+position: relative;
+left: 175%;
+}
+.o-n{
+    background-color: rgba(198, 219, 239, 0.781);
+}

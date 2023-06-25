@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addhar Card|registeration</title>
+    <link rel="stylesheet" href="form2.css">
+    <!-- <script src="form1.js"></script> -->
+</head>
+<body>
+    <div class="head1">Swiggy</div>
+    <div class="head2">Your Order</div>
+    <div id="he2"></div>
+    <form action="test.php" onsubmit="return validateForm()" name="f1">
+        <div class="name"><label for="name">Name</label>
+        <input  name="name" type="text" size="30" id="name"  class="inpbox">
+        <p id="err_name" class="error"></p>
+    </div>
+    <div class="mob">
+        <label for="mobno">PHone No.</label>
+        <input type="tel"  name="mobno" id="mobno" class="inpbox">
+        <div class="error" id="err_mobno"></div>
+    </div>
+        
+    <div class="order">
+        <table>
+            <tr>
+               <td><h3 class="order-name o-n">Item</h3></td>
+                <td><h3  class="qty o-n" >Qty</h3></td>
+            </tr>
+            <tr>
+               <td><input type="text" class="order-name" id="i1"></td>
+                <td><input type="number" class="qty" id="q1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="order-name" id="i2"></td>
+                 <td><input type="number" class="qty" id="q2"></td>
+             </tr>
+             <tr>
+                <td><input type="text" class="order-name" id="i3"></td>
+                 <td><input type="number" class="qty" id="q3"></td>
+             </tr>
+            
+        </table>
+        <div class="error" id="err_item"></div>
+        <!-- <h3><button onclick="add()">add more</button></h3> -->
+    </div>
+
+        <div class="email">
+        <label for="emailid">Email id</label>
+        <input type="email" size="30" name="email" id="email" class="inpbox">
+        <span class="error" id="err_email"></span>
+    </div>
+        
+        <div class="add1">
+        <label for="add1">Address (house name/ room no.)</label>
+        <input type="text" size="30" name="aad1" id="add1" class="inpbox">
+        <div class="error" id="err_add1"></div>
+    </div>
+        
+        <div class="add2">
+        <label for="add2">address(city)<label>
+            <input type="text" size="30" name="add2" id="add2" class="inpbox">
+        <div class="error" id="err_add2"></div>
+        </div>
+        
+        <div class="pincode">
+        <label for="pincode">Pincode</label>
+        <input type="number" size="6" name="pincode" id="pincode" class="inpbox">
+        <div class="error" id="err_pincode"></div>
+    </div>
+        
+    <div class="couponcode">
+        <label for="couponcode">Coupon-code</label>
+        <input type="text" size="18" name="couponcode" id="couponcode" class="inpbox">
+        <div class="error" id="err_couponcode"></div>
+    </div>
+        
+
+    </div>
+     <input type="submit" id="button1" value="Place Order"> 
+         <!-- <button id="button1" onclick="validateForm();">Submit</button>  -->
+    </form>
+    <script src="form2.js"></script>
+    <!-- <script>
+        const collection = document.getElementsByClassName("head2");
+        collection[0].innerHTML = "Hello World!";
+        </script> -->
+</body>
+</html>

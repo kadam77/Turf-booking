@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -----NAVBAR----- */
+#Navbar{
+    /* border: 2px solid red; */
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(white,antiquewhite);
+}
+
+#home #Navbar .nav_menus{
+    opacity: 0.8;
+    
+    display: inline-block;
+    position: relative;
+    top: 1vh;
+    left: 56vw;
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    background-color: #d3e9f3;
+    height: 6vh;
+    width: 65vh;
+    
+}
+
+.nav_menus ul{
+    /* display: flex;    */
+flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.nav_menus ul li{
+    /*position: relative;*/
+    flex-wrap: wrap;
+    left: 2vh;
+    top: 1vh;
+    font-size: larger;
+    padding-left: 31px;
+    list-style: none;
+    font-weight: 600;
+    display: inline-block;
+}
+.nav_menus{
+    display: flex;
+}
+.nav_menus ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    display: inline;
+}
+
+.nav_menus ul li a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 3vh;
+}
+
+/* ------Home------ */
+
+#Home{
+    
+    height: 100vh;
+    width: 100%;
+    background: url(photos/pillai2.png) no-repeat center center/cover;
+    /* background-size: cover; */
+    background-size: cover;
+}
+
+.two_button-container{
+    display: flex;
+    position: absolute;
+    top: 43vh;
+    width: 98.6%;
+    height: 14vh;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+    background-color: white;
+    height: 6vh;
+    width: 22%;
+    margin: 1vh;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 0px 0px #f1a93f;
+}
+
+.home-button:hover{
+    box-shadow: 0px 0px 5px 5px #f0a07b;
+    cursor: pointer;
+}
+
+.home-button h2{
+    display: inline-block;
+    /* font-family: Pacifico, cursive; */
+    color: #0e9d26;
+}
+
+/* ------Home Student information------ */
+
+#home-student-container{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 95vh;
+    width: 99.7%;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-container{
+    background: linear-gradient(135deg,#ff0066,#006699);
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 80vh;
+    width: 90%;
+    box-shadow: 5px 5px 2px 2px rgb(206, 241, 206);
+}
+
+.student-image{
+    background: url(photos/student\ image.jpg) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid green; */
+    height: 55vh;
+    width: 30vw;
+    position: relative;
+    top: 11vh;
+    left: 6vw;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.student-image:hover{
+    box-shadow: 5px 5px 5px rgb(127, 236, 105);
+}
+
+.student-container h1{
+    display: inline-block;
+    position: relative;
+    top: -49vh;
+    left: 55vw;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.student-info{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+    padding: 20px;
+    display: block;
+    /* border: 2px solid orange; */
+    width: 45vw;
+    height: 44vh;
+    position: relative;
+    top: -45vh;
+    left: 38vw;
+}
+
+/* ------Home Id card Advantage part------ */
+
+#home-Advantage-container{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 95vh;
+    width: 99.7%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Advantage-container{
+    background: linear-gradient(135deg,#ff0066,#006699);
+    border: 2px solid orange;
+    border-radius: 10px;
+    height: 80vh;
+    width: 90%;
+    box-shadow: 4px 4px 5px rgb(250, 208, 69);
+}
+
+.Advantage-image{
+    background: url(photos/student\ advantage\ image.jpg) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid green; */
+    height: 42vh;
+    width: 31vw;
+    position: relative;
+    top: 18vh;
+    left: 53vw;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.Advantage-image:hover{
+    box-shadow: 5px 5px 5px rgb(241, 181, 70);
+}
+
+.Advantage-container h1{
+    display: inline-block;
+    position: relative;
+    top: -33vh;
+    left: 7vw;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.advantage-info{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.1em;
+    padding: 20px;
+    display: block;
+    /* border: 2px solid orange; */
+    width: 45vw;
+    height: 44vh;
+    position: relative;
+    top: -32vh;
+    left: 3vw;
+}
+
+.advantage-info p{
+margin: 10px;
+}
+
+
+/* ------Footer------ */
+
+
+#footer{
+    background: linear-gradient(135deg,#ff0066,#006699);
+    /* border: 2px solid red; */
+    height: 37vh;
+    width: 100%;
+}
+
+/* fisrt-conainer */
+.first-container{
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.phone-number{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid #cf2e2e; */
+    height: 8vh;
+    width:25vw;
+    border-radius: 25px;
+}
+
+#phone-no a:hover{
+    color: rgb(255, 51, 0);
+}
+
+.phone-logo{
+    background: url(photos/Calling.png) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 4vh;
+    width: 2vw;
+    
+}
+
+.address{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid #cf2e2e; */
+    height: 8vh;
+    width: 25vw;
+    border-radius: 25px;
+}
+
+#Address a:hover{
+    color: rgb(255, 51, 0);
+}
+
+.address-logo{
+    background: url(photos/globeimg.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 4vh;
+    width: 2vw;
+}
+
+.email{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid #cf2e2e; */
+    height: 8vh;
+    width: 25vw;
+    border-radius: 25px;
+}
+
+#Email a:hover{
+    color: rgb(255, 51, 0);
+}
+
+.email-logo{
+    background: url(photos/emailImg.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 4vh;
+    width: 2vw;
+}
+
+
+/* Second container */
+.Second-container{
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+.logos{
+    width: 12vw;
+}
+
+.facebook{
+    background-image: url(photos/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 42px;
+    border-radius: 21px;
+}
+
+.twitter{
+    background-image: url(photos/twitter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 42px;
+    border-radius: 21px;
+}
+
+.linkedin{
+    background-image: url(photos/linkedin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 52px;
+    border-radius: 21px;
+}
+
+/* Third Container */
+.Third-Container{
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+.footer-menus{
+    border: 2px solid red;
+    display: inline-block;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 25px;
+    position: relative;
+    top: 3vh;
+}
+
+.footer-menus ul{ 
+    display: flex;   
+    align-items: center;
+    margin: auto;
+    list-style: none;
+} 
+
+.footer-menus ul li{ 
+    position: relative;
+    left: 2vh;
+    top: 1vh;
+    font-size: larger;
+    padding-left: 31px;
+    list-style: none;
+    font-weight: 300;
+} 
+
+.footer-menus ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-menus ul li a:hover{
+    color: #fd9801;
+}

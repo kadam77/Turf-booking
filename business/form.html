@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Membership Form</title>
+  <link rel="stylesheet" href="form.css" type="text/css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400&family=Cormorant+Garamond:wght@300;600&family=DM+Serif+Display:ital@1&family=Questrial&display=swap"
+    rel="stylesheet">
+    <script src="formvalidate.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="nav">
+      <a href="../home/newhome.html" class="batton">Home</a>
+      <a href="form.html" class="batton">Business</a>
+      <a href="../shop1/Shop.html" class="batton">Shop</a>
+      <a href="../about/video.html" class="batton">AboutUs</a>
+      <!-- <input class="sign" type="button" value="sign in"> -->
+  </div>
+    <div class="Business">
+      <div class="register">REGISTER</div>
+      <div class="title">Register here for Business/Franchise</div class="title">
+      <div class="form-box">
+        <form id="register" method="post" action="form.php" onsubmit="return validate()">
+          <div class="srcoll">
+
+            <div class="box">
+              <label class="tagname">First Name </label>
+              <input type="text" name="fname" id="fname" class="name" placeholder="Enter your First Name">
+            </div>
+            <p id="err_fname" class="error"></p><!--  * -->
+            <div class="box">
+              <label class="tagname">Last Name </label>
+              <input type="text" name="lname" id="lname" class="name" placeholder="Enter Your Last Name">
+              <p id="err_lname" class="error"></p><!--  * -->
+
+
+            </div>
+            <div class="box">
+              <label class="tagname">Your Age </label>
+              <input tpe="number" name="age"  id="age" class="name" placeholder="How old are you?">
+              <p id="err_age" class="error"></p><!--  * -->
+
+            </div>
+
+            <div class="box">
+              <label class="tagname">Contact </label>
+              <input type="phone" name="contactno" id="mobno" class="name" placeholder="Enter your Contact No.">
+              <p id="err_mobno" class="error"></p><!--  * -->
+
+            </div>
+
+            <div class="box">
+              <label class="tagname">Email </label>
+              <input type="email" id="email"  name="email" class="name" placeholder="Enter your valid Email">
+              <p id="err_email" class="error"></p><!--  * -->
+            </div>
+
+
+            <div class="box">
+              <label class="tagname">Turf Location </label>
+              <input type="text" id="loc" name="location" class="name" placeholder="Enter your Turf Location">
+              <p id="err_loc" class="error"></p><!--  * -->
+            </div>
+
+            <div class="box">
+
+              <label class="tagname">Gender: </label>
+              <span class="tagname" id="male">Male</span>
+              <input type="radio" name="gender" id="male" value="Male">
+              <span class="tagname" id="female">Female</span>
+              <input type="radio" name="gender" id="female" value="Female">
+              <span class="tagname" id="other">Other</span>
+              <input type="radio" name="gender" id="other" value="Other">
+              <div class="box">
+
+                <label style="visibility: hidden ;" class="tagname">ID No(if you want to update) :</label>
+                <input style="visibility: hidden ;" type="number" name="id" class="name" placeholder="Enter your Id no.">
+              </div>
+
+              <input type="submit" value="submit" name="submit" id="submit">
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+      <script src="formvalidate.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>
